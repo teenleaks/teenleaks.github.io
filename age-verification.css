@@ -1,0 +1,40 @@
+/* CSS para a tela de aviso de idade */
+
+#age-verification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#age-verification h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#age-verification button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#age-verification .adult {
+    background: green;
+    color: white;
+}
+
+#age-verification .minor {
+    background: red;
+    color: white;
+}
